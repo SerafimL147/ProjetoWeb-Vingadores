@@ -1,43 +1,48 @@
+/*  ESSE CÓDIGO CONFIGURA A MARGEM DA PAGINA, TIRANDO O ESPAÇAMENTO */
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 
 body{
-    font-family: sans-serif;
+    font-family: sans-serif;  /* FONTE GERAL DA PAGINA  */
 
 }
+
+/*  HEADER = CABEÇALHO...  */
 
 header{
     background-color: #111;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
+    display: flex; /* TORNA OS ELEMENTOS QUE ESTÃO DENTRO DA TAG HEADER FLEXIVEL. DEIXO TUDO DENTRO DE UMA MESMA MARGEM  */
+    align-items: center; /*  ALINHHA OS ITEMS NO CENTRO */
+    justify-content:space-around; /*  FAZ ESPAÇAMENTO */
     
 }
 
+/*  NAVEGANDO PELAS TAG INDIVIDUALMENTE E FAZENDO ALTERAÇÕES DENTRO DA TAG MÃE */
 header img{
-    width: 180px;
+    width: 180px;  /*  ALTERA O TAMANHO DA IMAGEM */
 }
 
-header ul li + li {      
-    margin-left: 24px;
+header ul li + li {      /* LI + LI = COLOCA 24PX NESTE ALI, SE TIVER ANTES DELE UM LI. TIRA A MARGEM.  */
+    margin-left: 24px;  /*  VALOR DO ESPAÇAMENTO ENTRE AS LISTAS */
 
 }
 header ul {
-list-style: none;
-display: flex;
+list-style: none;  /*  DEIXA A LISTA SEM ESTILO (NONE) */
+display: flex;    /*  A LISTA FICA FLEXIVEL, LADO A LADO. */
 
 
 }
 
-header a{
+header a{             
     color: aliceblue;
-    text-decoration: none;
-    transition: color 0.5s;
+    text-decoration: none;  /* TIRA A DECORAÇÃO DO LINK  */
+    transition: color 0.5s; /*  TEMPO DE TRANSIÇÃO DA COR AO PASSAR O MAUSE */
 }
 
-header a:hover {
+header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA */
     color: #f13239;
 }
