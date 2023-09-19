@@ -45,4 +45,21 @@ header a{
 
 header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA */
     color: #f13239;
+}   
+
+.hero{
+    height: 320px;
+    padding: 24px;
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center top 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1{
+    color:aliceblue;
 }
