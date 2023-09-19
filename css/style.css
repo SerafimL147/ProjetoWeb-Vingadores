@@ -35,5 +35,9 @@ display: flex;
 header a{
     color: aliceblue;
     text-decoration: none;
-    
+    transition: color 0.4s;
+}
+
+header a:hover {
+    color: #f13239;
 }
