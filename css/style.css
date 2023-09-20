@@ -56,10 +56,65 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
     background-position: center top 25%;
 
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero h1{
     color:aliceblue;
+}
+
+.dots {
+    margin-top: 24px;
+    display: flex;
+}
+
+.dots button {
+        cursor: pointer;
+    
+        width: 14px;
+        height: 14px;
+        background-color: aliceblue;
+        border-radius: 50%;
+}
+
+.dots button + button {
+    margin-left: 8px;
+} 
+
+.gallery {
+
+    max-width: 1200px;
+    margin: 64 auto 0;
+    padding: 0 24px;
+}
+
+.imagens {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.imagens div {
+    
+    flex: 1 1 250px;
+}
+
+.imagens img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.gallery h2 {
+    margin-bottom: 32px;
+    border-left: 4px solid #f13239;
+    padding-left: 3px;
+}
+
+.gallery p {
+    font-weight: bold;
 }
