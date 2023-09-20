@@ -86,8 +86,8 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
 .gallery {
 
     max-width: 1200px;
-    margin: 64 auto 0;
-    padding: 0 24px;
+    margin: auto;
+    padding: 0 50px;
 }
 
 .imagens {
@@ -117,4 +117,60 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
 
 .gallery p {
     font-weight: bold;
+    color: black;
+}
+
+.history {
+    background-color: black;
+    color: aliceblue;
+    padding: 92px 24px 20px;
+
+    border-top: 4px solid red;
+
+}
+
+.history .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border-bottom: 2px solid red;
+
+}
+
+.history .container .col {
+    flex: 1 1 350px;
+    
+}
+
+.history .container .col img {
+    width: 100%;
+    display: block;
+}
+
+.history .container .col h2, p{
+    color: aliceblue;
+}
+
+.history .container .col a{
+    color: #f13239;
+}
+
+.history .container .col h2 {
+    margin-bottom: 32px;
+    border-left: 4px solid #f13239;
+    padding-left: 3px;
+}
+
+
+.history .container .col a {
+    transition: 0.5s;
+}
+
+.history .container .col a:hover {
+    color:aliceblue;
 }
