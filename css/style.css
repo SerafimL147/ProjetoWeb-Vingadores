@@ -18,8 +18,20 @@ header{
     display: flex; /* TORNA OS ELEMENTOS QUE ESTÃO DENTRO DA TAG HEADER FLEXIVEL. DEIXO TUDO DENTRO DE UMA MESMA MARGEM  */
     align-items: center; /*  ALINHHA OS ITEMS NO CENTRO */
     justify-content:space-around; /*  FAZ ESPAÇAMENTO */
+    flex-wrap: wrap;
+    padding: 8px 24px;
     
 }
+
+.dar-link{
+    color:#f13239
+}
+
+.dar-link:hover{
+    color: aliceblue;
+    transition: 0.9s;
+}
+
 
 /*  NAVEGANDO PELAS TAG INDIVIDUALMENTE E FAZENDO ALTERAÇÕES DENTRO DA TAG MÃE */
 header img{
@@ -87,7 +99,7 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
 
     max-width: 1200px;
     margin: auto;
-    padding: 0 50px;
+    padding: 24px 50px;
 }
 
 .imagens {
@@ -125,7 +137,7 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
     color: aliceblue;
     padding: 92px 24px 20px;
 
-    border-top: 4px solid red;
+    border-top: 2px solid red;
 
 }
 
@@ -156,10 +168,6 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
     color: aliceblue;
 }
 
-.history .container .col a{
-    color: #f13239;
-}
-
 .history .container .col h2 {
     margin-bottom: 32px;
     border-left: 4px solid #f13239;
@@ -167,10 +175,14 @@ header a:hover {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
 }
 
 
-.history .container .col a {
-    transition: 0.5s;
+footer {
+    padding: 64px 24px;
+    background-color: black;
+    
 }
 
-.history .container .col a:hover {
-    color:aliceblue;
+footer p {
+    color: aliceblue;
+    text-align: center;
 }
+
