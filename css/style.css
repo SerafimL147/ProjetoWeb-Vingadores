@@ -80,6 +80,7 @@ header a:focus {        /*  QUANDO PASSAR O MAUSE POR CIMA DA LISTA A COR MUDA *
     padding: 20px;
 
     background-image: url(../images/banner.jpg);
+    width: 100%;
     background-size:cover;
     background-position: center top -25%;
     
